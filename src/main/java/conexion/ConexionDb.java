@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class ConexionDb {
 
 
-    private final static String URL = "jdbc:mysql://localhost:3306/alke_wallet";
+    private final static String URL = "jdbc:mysql://localhost:3306/usuarios";
     private static  String usuario = "root";
     private static String pass = "conycata2019";
     private static BasicDataSource pool;

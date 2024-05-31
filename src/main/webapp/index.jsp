@@ -24,14 +24,14 @@
       <div id="alertMessage"></div>
       <!-- Alert -->
       <h2 class="text-dark text-center">Inicio de sesión</h2>
-      <form id="loginForm">
+      <form id="loginForm" action="/LoginServlet" method="post">
         <div class="form-group">
           <label class="text-dark mb-2 fw-bold" for="email"></label>
           <div class="input-group">
             <span class="input-group-prepend">
               <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
             </span>
-            <input type="email" class="form-control" id="email" placeholder="Correo electronico">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Correo electronico">
           </div>
         </div>
         <div class="form-group">
@@ -40,7 +40,7 @@
             <span class="input-group-prepend">
               <span class="input-group-text"><i class="bi bi-lock-fill"></i></span>
             </span>
-            <input type="password" class="form-control" id="password" placeholder="Contraseña">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña">
           </div>
         </div>
         <button type="submit" class="btn btn-dark text-warning w-100 mt-md-4 mt-4">Ingresar</button>
