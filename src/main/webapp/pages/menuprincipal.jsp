@@ -35,9 +35,6 @@
                                 href="enviarfondos.jsp">Enviar fondos</a>
                             <a class="nav-link active text-dark fw-bold" aria-current="page"
                                 href="retirarfondos.jsp">Retirar fondos</a>
-                            <a class="nav-link active text-dark fw-bold" aria-current="page"
-                                href="ultimosmov.html">Últimos
-                                movimientos</a>
                             <a class="nav-link active text-dark fw-bold" aria-current="page" href="../index.jsp">Cerrar
                                 sesión</a>
                         </div>
