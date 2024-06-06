@@ -13,35 +13,33 @@
     </head>
 
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark"> <!--color fonfo-->
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="../index.jsp">
-                        <img src="../img/banco.png" alt="Logo" width="100" height="74"
-                            class="d-inline-block align-text-top logo-navbar">
-                    </a>
-                    <a class="navbar-brand text-dark fw-bold" href="../index.jsp">Alke Wallet</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active text-dark fw-bold" aria-current="page"
-                                href="menuprincipal.jsp">Menú
-                                principal</a>
-                            <a class="nav-link active text-dark fw-bold" aria-current="page"
-                                href="enviarfondos.jsp">Enviar fondos</a>
-                            <a class="nav-link active text-dark fw-bold" aria-current="page"
-                                href="retirarfondos.jsp">Retirar fondos</a>
-                            <a class="nav-link active text-dark fw-bold" aria-current="page" href="../index.jsp">Cerrar
-                                sesión</a>
+         <nav class="navbar navbar-expand-lg"> <!--color fonfo-->
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="../index.jsp">
+                                <img src="../img/banco.png" alt="Logo" width="100" height="74"
+                                    class="d-inline-block align-text-top logo-navbar">
+                            </a>
+                            <a class="navbar-brand text-dark fw-bold" href="../index.jsp">Alke Wallet</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-link active text-dark fw-bold" aria-current="page"
+                                        href="menuprincipal.jsp">Menú
+                                        principal</a>
+                                    <a class="nav-link active text-dark fw-bold" aria-current="page"
+                                        href="depositarfondos.jsp">Depositar fondos</a>
+                                    <a class="nav-link active text-dark fw-bold" aria-current="page"
+                                        href="retirarfondos.jsp">Retirar fondos</a>
+                                    <a class="nav-link active text-dark fw-bold" aria-current="page" href="../index.jsp">Cerrar
+                                        sesión</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
+                    </nav>
 
         <main>
             <main class="container mt-5">

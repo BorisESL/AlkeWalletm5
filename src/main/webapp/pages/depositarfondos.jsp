@@ -13,40 +13,38 @@
     </head>
 
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark"> <!--color fonfo-->
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="../index.jsp">
-                        <img src="../img/banco.png" alt="Logo" width="100" height="74"
-                            class="d-inline-block align-text-top logo-navbar">
-                    </a>
-                    <a class="navbar-brand text-dark fw-bold" href="../index.jsp">Alke Wallet</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active text-dark fw-bold" aria-current="page"
-                                href="menuprincipal.jsp">Menú
-                                principal</a>
-                            <a class="nav-link active text-dark fw-bold" aria-current="page"
-                                href="enviarfondos.jsp">Enviar fondos</a>
-                            <a class="nav-link active text-dark fw-bold" aria-current="page"
-                                href="retirarfondos.jsp">Retirar fondos</a>
-                            <a class="nav-link active text-dark fw-bold" aria-current="page" href="../index.jsp">Cerrar
-                                sesión</a>
+         <nav class="navbar navbar-expand-lg"> <!--color fonfo-->
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="../index.jsp">
+                                <img src="../img/banco.png" alt="Logo" width="100" height="74"
+                                    class="d-inline-block align-text-top logo-navbar">
+                            </a>
+                            <a class="navbar-brand text-dark fw-bold" href="../index.jsp">Alke Wallet</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-link active text-dark fw-bold" aria-current="page"
+                                        href="menuprincipal.jsp">Menú
+                                        principal</a>
+                                    <a class="nav-link active text-dark fw-bold" aria-current="page"
+                                        href="depositarfondos.jsp">Depositar fondos</a>
+                                    <a class="nav-link active text-dark fw-bold" aria-current="page"
+                                        href="retirarfondos.jsp">Retirar fondos</a>
+                                    <a class="nav-link active text-dark fw-bold" aria-current="page" href="../index.jsp">Cerrar
+                                        sesión</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
+                    </nav>
 
         <main class="container mt-5">
             <div class="formulario3 d-flex flex-column justify-content-center text-white">
                 <div>
-                    <h1 class="text-secondary text-md-center p-2">Envío de Fondos</h1>
+                    <h1 class="text-secondary text-md-center p-2">Depositar de Fondos</h1>
                     <form>
                         <div class="form-group m-md-4">
                             <label class="m-md-3 text-md-center p-2" for="depositAmount">Monto a depositar:</label>
@@ -54,7 +52,7 @@
                                 placeholder="Ingrese Monto">
                         </div>
                         <div class="d-flex justify-content-center">
-                            <button type="submit" class="btn btn-dark text-warning mt-3 mx-2">Realizar Envío</button>
+                            <button type="submit" class="btn btn-dark text-warning mt-3 mx-2">Depositar Fondos</button>
                             <a href="menuprincipal.jsp" class="btn btn-dark text-warning mt-3 mx-2">Volver al Menú
                                 Principal</a>
                         </div>

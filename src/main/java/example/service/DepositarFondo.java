@@ -19,4 +19,3 @@ public class DepositarFondo implements OperacionBancaria {
 
 
 }
-

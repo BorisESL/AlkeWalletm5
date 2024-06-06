@@ -1,3 +1,4 @@
+
 package controllers;
 
 import example.model.Usuario;
@@ -23,27 +24,24 @@ public class LoginServlet extends HttpServlet {
         String password = request.getParameter("password");
         System.out.println(email + " " + password);
 
-
-        String url = "jdbc:mysql://localhost:3306/usuarios";
-        String user = "root";
-        String pass = "conycata2019";
-
         UsuarioRepositorio repo = new UsuarioRepositorio();
-        try{
+        try {
             List<Usuario> usuarios = repo.listar();
             for (Usuario usuario : usuarios) {
                 if (usuario.getEmail().equals(email)) {
-                    if(usuario.getPassword().equals(password)) {
+                    if (usuario.getPassword().equals(password)) {
                         HttpSession session = request.getSession();
                         session.setAttribute("usuario", usuario);
                         response.sendRedirect("pages/menuprincipal.jsp");
+                        return;
                     }
                 }
             }
 
+            // Si no se encuentra el usuario, redirigir al login con mensaje de error (opcional)
+            response.sendRedirect("../index.jsp?error=invalidLogin");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
     }
-
 }

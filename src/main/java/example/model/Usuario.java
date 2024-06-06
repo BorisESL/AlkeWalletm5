@@ -6,6 +6,7 @@ public class Usuario {
     String rut;
     String password;
     String email;
+    double balance;
 
     public Usuario(int id, String nombre, String rut, String password, String email) {
         this.id = id;
@@ -13,7 +14,12 @@ public class Usuario {
         this.rut = rut;
         this.password = password;
         this.email = email;
+        double balance;
     }
+
+    public Usuario(int id, String nombre, String rut, String password, String email, double balance) {
+    }
+
 
     public int getId() {
         return id;
@@ -53,6 +59,14 @@ public class Usuario {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 
     public Usuario() {
