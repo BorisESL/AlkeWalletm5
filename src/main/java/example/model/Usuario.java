@@ -8,16 +8,13 @@ public class Usuario {
     String email;
     double balance;
 
-    public Usuario(int id, String nombre, String rut, String password, String email) {
+    public Usuario(int id, String nombre, String rut, String password, String email, double balance) {
         this.id = id;
         this.nombre = nombre;
         this.rut = rut;
         this.password = password;
         this.email = email;
-        double balance;
-    }
-
-    public Usuario(int id, String nombre, String rut, String password, String email, double balance) {
+        this.balance  = balance;
     }
 
 
